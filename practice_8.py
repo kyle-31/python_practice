@@ -479,7 +479,7 @@ def Return():
 
         if status[book_index] == "已借出":
             status[book_index] = "可借閱"
-            print("還書成功")
+            print("還功")
         else:
             print("尚未被借走")
 
